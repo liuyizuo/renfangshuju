@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/map/map",
+    "pages/form/form"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "巡查管理",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+     "color": "#9E9E9E",
+    "backgroundColor": "white",
+    "borderStyle": "white",
+       "list": [
+      {
+       
+       "pagePath": "pages/map/map",
+       "text": "地图"  ,
+        "selectedColor": "#17d399"
+      },
+      {
+       
+      "pagePath": "pages/form/form",
+        "text": "提交"  ,
+        "selectedColor": "#17d399"
+      },
+      { 
+     "pagePath": "pages/logs/logs",
+     "text": "查看"  ,
+      "selectedColor": "#17d399"
+      }
+    ]  
+
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  }
+}

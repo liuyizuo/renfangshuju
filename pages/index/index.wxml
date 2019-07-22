@@ -1,0 +1,5 @@
+ <view class='iptbox'>
+      <text>用户名：</text><input bindinput="iptname" class='username'></input>
+      <text>密 码：</text><input bindinput="iptunit" class='password' password	='true'></input>
+    </view>
+    <button class='binding' type="primary" bindtap='jump'>绑定</button>

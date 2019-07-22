@@ -1,0 +1,27 @@
+.iptbox{
+  width: 64vw;
+  position: absolute;
+  top: 25vh;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 26rpx;
+}
+.iptbox text{
+  width: 15vw;
+  float: left;
+}
+.iptbox input{
+  width: 45vw;
+  background: #fff;
+  border-radius: 1vw;
+  float: left;
+  margin-bottom: 4vh;
+ border:1px solid  #000
+}
+.binding{
+ width: 60vw;
+  position: absolute;
+  left: 50%;
+  bottom: 45vh;
+  transform: translateX(-50%);
+}
